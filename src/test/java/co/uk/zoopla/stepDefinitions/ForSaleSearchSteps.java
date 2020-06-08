@@ -3,17 +3,37 @@ package co.uk.zoopla.stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class ForSaleSearchSteps {
+
+    WebDriver driver;
 
     @Given("I navigate to Zoopla homepage")
     public void i_navigate_to_Zoopla_homepage() {
 
+        //Enters the url
+        //navigates to the url
+
+        WebDriverManager.chromedriver().setup();
+        //Launch a browser
+        driver = new ChromeDriver();
+
+        //Enters the url
+        //navigates to the url
+        driver.navigate().to("https://www.zoopla.co.uk/");
+
+
     }
 
     @When("I enter {string} into the search field")
-    public void i_enter_into_the_search_field(String string) {
-
+    public void i_enter_into_the_search_field(String location) {
+        driver.findElement(By.id("search-input-location")).sendKeys(location);
     }
 
     @When("I select {string} from Min price")
