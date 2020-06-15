@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TestProjectZoopla" />
         <module name="June-Zoopla-Class" />
+        <module name="TestProjectZoopla" />
       </profile>
     </annotationProcessing>
   </component>
