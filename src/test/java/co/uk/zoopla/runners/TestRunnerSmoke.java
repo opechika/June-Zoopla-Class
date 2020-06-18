@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         glue = {"co/uk/zoopla/hooks", "co/uk/zoopla/stepDefinitions"},
         plugin = {"pretty", "json:target/report.json",
         "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
-        tags = {"not @ignore"}
+        tags = {"not @ignore", "@smokeTest"}
 )
-public class TestRunner {
+public class TestRunnerSmoke {
 }
