@@ -4,7 +4,7 @@ Feature: For Rent Search
   I want the ability to search for any properties of my choice
   So that I can choice one to buy
 
-  @forRent @smokeTest
+  @smokeTest
   Scenario Outline: Customer can Search for any property
     Given I navigate to Zoopla homepage
     And I click on for rent tab
