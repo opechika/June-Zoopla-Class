@@ -1,6 +1,7 @@
 package co.uk.zoopla.pages;
 
 import co.uk.zoopla.commons.DriverManager;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -19,6 +20,8 @@ public class BasePage extends DriverManager
     {
         select = new Select(element);
         select.selectByVisibleText(text);
+        Assert.assertTrue(select.getFirstSelectedOption().getText().equals(text));
+        //System.out.println(select.getFirstSelectedOption().getText());
     }
 
     public void selectByValue(WebElement element, String value)
