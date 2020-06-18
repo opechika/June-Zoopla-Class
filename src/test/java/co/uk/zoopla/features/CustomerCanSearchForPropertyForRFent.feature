@@ -1,3 +1,4 @@
+@regression
 Feature: For Rent Search
   As a customer
   I want the ability to search for any properties of my choice
