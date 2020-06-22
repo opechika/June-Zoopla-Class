@@ -21,6 +21,8 @@ public class SearchResultPage extends BasePage {
     private WebElement pageTitle;
     @FindBy(css = ".listing-results-price.text-price")
     private List<WebElement> results;
+    @FindBy(css = ".icon.icon-cancel-1")
+    private WebElement cancelPopUp;
 
     public void isSearchResultPageDisplayed(String location)
     {
@@ -37,6 +39,7 @@ public class SearchResultPage extends BasePage {
 
     public ProductDetailPage clickOnTheFirstResult()
     {
+        cancelPopUp.click();
         results.get(0).click();
         return new ProductDetailPage(driver);
     }
@@ -47,6 +50,7 @@ public class SearchResultPage extends BasePage {
         Random random = new Random();
         int ranNumber = random.nextInt(noOfElement - 1);
 
+        cancelPopUp.click();
         results.get(ranNumber).click();
         return new ProductDetailPage(driver);
     }
