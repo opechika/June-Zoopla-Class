@@ -1,13 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-22T17:32:57.632Z",
+        "start_timestamp": "2020-06-18T18:24:47.967Z",
         "before": [
           {
             "result": {
-              "duration": 9452000000,
+              "duration": 11460000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 22,
+        "line": 21,
         "name": "Customer can Search for any property",
         "description": "",
         "id": "for-rent-search;customer-can-search-for-any-property;;2",
         "after": [
           {
             "result": {
-              "duration": 5317000000,
+              "duration": 2247000000,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4594000000,
+              "duration": 18047000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I navigate to Zoopla homepage",
             "match": {
               "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_navigate_to_Zoopla_homepage()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 276000000,
+              "duration": 5652000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I click on for rent tab",
             "match": {
               "location": "co.uk.zoopla.stepDefinitions.ForRentSearchSteps.i_click_on_for_rent_tab()"
@@ -59,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 1372000000,
+              "duration": 5840000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I enter \"London\" into the search field",
             "match": {
               "arguments": [
@@ -77,10 +77,10 @@
           },
           {
             "result": {
-              "duration": 879000000,
+              "duration": 803000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "I select \"£1,000 pcm\" from rental Min price",
             "match": {
               "arguments": [
@@ -95,10 +95,10 @@
           },
           {
             "result": {
-              "duration": 933000000,
+              "duration": 2269000000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "I select \"£2,000 pcm\" from rental Max price",
             "match": {
               "arguments": [
@@ -113,10 +113,10 @@
           },
           {
             "result": {
-              "duration": 256000000,
+              "duration": 359000000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "I select \"Show all\" from Property type",
             "match": {
               "arguments": [
@@ -131,10 +131,10 @@
           },
           {
             "result": {
-              "duration": 485000000,
+              "duration": 295000000,
               "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "I select \"No min\" from Bedrooms",
             "match": {
               "arguments": [
@@ -149,10 +149,10 @@
           },
           {
             "result": {
-              "duration": 11450000000,
+              "duration": 11502000000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "I click on Search button",
             "match": {
               "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_Search_button()"
@@ -161,10 +161,10 @@
           },
           {
             "result": {
-              "duration": 1335000000,
+              "duration": 1136000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 16,
             "name": "the search for \"London\" is displayed",
             "match": {
               "arguments": [
@@ -179,10 +179,10 @@
           },
           {
             "result": {
-              "duration": 2653000000,
+              "duration": 6964000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 17,
             "name": "I click on one of the search result",
             "match": {
               "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_one_of_the_search_result()"
@@ -192,7 +192,7 @@
         ],
         "tags": [
           {
-            "name": "@regression"
+            "name": "@forRent"
           },
           {
             "name": "@smokeTest"
@@ -205,26 +205,17 @@
     "id": "for-rent-search",
     "keyword": "Feature",
     "uri": "file:src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForRFent.feature",
-    "tags": [
-      {
-        "name": "@regression",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   },
   {
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-06-22T17:33:36.840Z",
+        "start_timestamp": "2020-06-18T18:25:54.839Z",
         "before": [
           {
             "result": {
-              "duration": 7247000000,
+              "duration": 7002000000,
               "status": "passed"
             },
             "match": {
@@ -239,7 +230,7 @@
         "after": [
           {
             "result": {
-              "duration": 3799000000,
+              "duration": 2668000000,
               "status": "passed"
             },
             "match": {
@@ -252,7 +243,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5355000000,
+              "duration": 5075000000,
               "status": "passed"
             },
             "line": 9,
@@ -264,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 1273000000,
+              "duration": 1385000000,
               "status": "passed"
             },
             "line": 10,
@@ -282,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 1019000000,
+              "duration": 843000000,
               "status": "passed"
             },
             "line": 11,
@@ -300,7 +291,7 @@
           },
           {
             "result": {
-              "duration": 459000000,
+              "duration": 275000000,
               "status": "passed"
             },
             "line": 12,
@@ -318,7 +309,7 @@
           },
           {
             "result": {
-              "duration": 415000000,
+              "duration": 309000000,
               "status": "passed"
             },
             "line": 13,
@@ -336,7 +327,7 @@
           },
           {
             "result": {
-              "duration": 437000000,
+              "duration": 343000000,
               "status": "passed"
             },
             "line": 14,
@@ -354,7 +345,7 @@
           },
           {
             "result": {
-              "duration": 29934000000,
+              "duration": 12633000000,
               "status": "passed"
             },
             "line": 15,
@@ -366,7 +357,7 @@
           },
           {
             "result": {
-              "duration": 1481000000,
+              "duration": 86000000,
               "status": "passed"
             },
             "line": 16,
@@ -384,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 2581000000,
+              "duration": 1326000000,
               "status": "passed"
             },
             "line": 17,
