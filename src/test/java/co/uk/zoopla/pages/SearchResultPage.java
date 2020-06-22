@@ -52,6 +52,7 @@ public class SearchResultPage extends BasePage {
 
         cancelPopUp.click();
         results.get(ranNumber).click();
+
         return new ProductDetailPage(driver);
     }
 }
